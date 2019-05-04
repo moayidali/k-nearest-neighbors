@@ -80,7 +80,7 @@ print(metrics.classification_report(y_expect,y_pred))
 
 
 # In[ ]:
-
+print("Accuracy:",metrics.accuracy_score(y_expect, y_pred))
 
 
 
